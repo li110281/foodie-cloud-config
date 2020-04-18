@@ -1,0 +1,9 @@
+#开启 所有autuaotr端点
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
