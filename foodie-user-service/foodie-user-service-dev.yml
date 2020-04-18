@@ -1,0 +1,12 @@
+#数据库连接
+maridb:
+  url: 'jdbc:mysql://47.106.244.67:3306/food_shop?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true'
+  password: '{cipher}ab62591d9aa3685c5dedf5f10d9683e211b95343a0f737ff981c36e9228b7a5a'
+  
+  
+#功能开关  开启/关闭 注册功能
+
+userservice:
+  registration:
+    disabled: true
+  
