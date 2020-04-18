@@ -8,5 +8,5 @@ maridb:
 
 userservice:
   registration:
-    disabled: true
+    disabled: false
   
